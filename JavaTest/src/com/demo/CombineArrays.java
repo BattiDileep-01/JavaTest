@@ -17,6 +17,7 @@ public class CombineArrays {
         while (n2 > b) {
             arr3[c++] = arr2[b++];
         }
+        Arrays.sort(arr3);
         System.out.println(Arrays.toString(arr3));
     }
 
