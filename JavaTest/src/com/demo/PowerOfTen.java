@@ -1,5 +1,6 @@
 package com.demo;
 
+import java.io.PrintStream;
 import java.util.Scanner;
 
 public class PowerOfTen {
@@ -11,18 +12,21 @@ public class PowerOfTen {
         sc.close();
         boolean power = false;
 
-        int rem = n % 10;
-        if (rem != 0) {
-            power = false;
-        }
-        n = n / 10;
-        if (n == 1) {
-            power = true;
-            System.out.println("given number is  a power of ten");
-        }
+        while (n > 0) {
+            int rem = n % 10;
 
+            if (n != 0) {
+                power = false;
+            }
+            n = n / 10;
+            if (n == 1) {
+                power = true;
+                System.out.println("given number is power of ten");
+                break;
+            }
+        }
         if (!power) {
-            System.out.println("not a power of ten");
+            System.out.println("given number is not apower of ten");
         }
     }
 }
