@@ -23,5 +23,9 @@ public class Polindrome {
             System.out.println("polindrome");
         } else
             System.out.println("not a polindrome");
+
+        //Approach -2
+
+
     }
 }
