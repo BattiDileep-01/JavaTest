@@ -15,4 +15,5 @@ public class BigElementInArray1 {
         System.out.println(bigElement);
         System.out.println(minElement);
     }
+    
 }
