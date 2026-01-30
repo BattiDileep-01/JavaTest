@@ -25,6 +25,16 @@ public class SecondNonReapeatingChar {
                 System.out.println(m.getKey() + "====" + m.getValue());
             }
         }
+
+        for (Map.Entry<Character, Integer> m1 : map.entrySet()) {
+            if (m1.getValue() == 2) {
+                count++;
+            }
+            if (count == 2) {
+                System.out.println("second reapted char ==>" + m1.getKey());
+                break;
+            }
+        }
     }
 
 }
