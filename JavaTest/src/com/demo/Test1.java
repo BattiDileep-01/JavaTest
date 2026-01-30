@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Test {
+public class Test1 {
 
     public static void main(String[] args) {
 

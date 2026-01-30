@@ -1,10 +1,9 @@
 package com.demo;
 
-import com.sun.source.tree.ArrayAccessTree;
 
 import java.util.Arrays;
 
-public class BigElementInArray {
+public class BigElementInArray1 {
 
     public static void main(String[] args) {
 
