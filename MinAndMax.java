@@ -19,10 +19,11 @@ al.add(6464);
 System.out.println(al);
 
 int smallnumber = al.stream().min((i1 , i2) -> (i1<i2)?-1:(i1>i2)?1:0).get();
-int bignumber = al.stream().max((i1 , i2) -> -i1.compareTo(i2)).get();
+int bignumber = al.stream().max((i1 , i2) -> i1.compareTo(i2)).get();
 
 System.out.println(smallnumber);
 System.out.println(bignumber);
-
+      
+	  
 }
 }
